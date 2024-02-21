@@ -4,7 +4,7 @@ This is a simple GitHub Action for installing Pipenv.
 
 Unfortunately installing Pipenv is a pain in the butt when you want to use caching. See [this GitHub issue](https://github.com/actions/setup-python/issues/436) for an example. Here's a screenshot of the annoying issue I ran into:
 
-![cache-issue-example.png](cache-issue-example.png)
+![img.png](img.png)
 
 The official recommendation of the Python GitHub Action is to use something like the below (see [here](https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#caching-packages)):
 
