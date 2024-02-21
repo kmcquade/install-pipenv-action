@@ -1,0 +1,9 @@
+name: 'Install Pipenv'
+description: 'A GitHub Action to install Pipenv (cache friendly)'
+author: 'Kinnaird McQuade'
+runs:
+  using: "composite"
+  steps:
+    - name: Install Pipenv
+      run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+      shell: bash
