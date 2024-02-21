@@ -1,6 +1,9 @@
 name: 'Install Pipenv'
 description: 'A GitHub Action to install Pipenv (cache friendly)'
 author: 'Kinnaird McQuade'
+branding:
+  icon: fast-forward
+  color: gray-dark
 runs:
   using: "composite"
   steps:
